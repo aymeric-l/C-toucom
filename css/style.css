@@ -9,14 +9,17 @@ body{
 	background-image: url("http://www.c-toucom.com/wp-content/uploads/2015/04/fond1.png");
 	margin-bottom: -20px;
 }
+
 #deux img{
 	border:1px solid black;
-	width: 19%;
-	height: 19%;
+	width: 231px;
+	height: auto;
 }
 #deux img:hover {
-	width: 300px;
+	width: 270px;
+	transition: all 0.3s cubic-bezier(0.83, 0.08, 0.88, 0.51) 0s; /* transition du zoom */
 }
+
 #logo{
 	width: 250px;
 	height: 80px;
@@ -59,20 +62,26 @@ header{
 	color:#444;
 }
 #deux{
-	display: flex;
-	flex-wrap: wrap;
+	width: 85%;
+	/*display: flex;
+	flex-direction: row;
+	flex-direction: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;*/
+	column-count: 4;
+	column-gap: 10px;
+	column-width: 17%;
 	padding-right: 20px;
-	padding-left: 5%;
-	padding-top: 30px;
+	padding-left: 8%;
+	padding-top: 50px;
 
 }
 #trois{
 
 }
 .imagePrincipale{
-	position: relative;
-	width:19.3%;
-	margin: 20px 20px 20px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	    /*transition: all 0.3s cubic-bezier(0.83, 0.08, 0.88, 0.51) 0s;*/
 }
 
