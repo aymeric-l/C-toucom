@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'MaPolice';
+    src        : url("../font/MaPolice.otf");
+}
+html{
+	overflow-x: hidden;
+}
+body{
+	background-image: url("http://www.c-toucom.com/wp-content/uploads/2015/04/fond1.png");
+	margin-bottom: -20px;
+}
+#deux img{
+	border:1px solid black;
+	width: 19%;
+	height: 19%;
+}
+#deux img:hover {
+	width: 300px;
+}
+#logo{
+	width: 250px;
+	height: 80px;
+}
+header{
+	display: flex;
+	flex-direction: row;	
+	padding-top: 1.6%;
+	padding-left:7%;
+	background-color: white;
+	height: 113px;
+	margin: -10px -10px -8px -10px;
+}
+#deco{
+	display: flex;
+	justify-content: center;
+}
+#flex{
+	display: flex;
+	flex:1;
+}
+#laUl{
+	display: flex;
+	padding-right:100px;
+}
+#laUl li{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 33px;
+	color:#000;
+}
+#un{
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+#un ul li{
+	padding-left: 50px;
+	padding-right: 50px;
+	color:#444;
+}
+#deux{
+	display: flex;
+	flex-wrap: wrap;
+	padding-right: 20px;
+	padding-left: 5%;
+	padding-top: 30px;
+
+}
+#trois{
+
+}
+.imagePrincipale{
+	position: relative;
+	width:19.3%;
+	margin: 20px 20px 20px 20px;
+	    /*transition: all 0.3s cubic-bezier(0.83, 0.08, 0.88, 0.51) 0s;*/
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	z-index:10;
+}
+li{
+	display: inline-block;
+}
+.font{
+	font-size: 20px;
+}
+
+li{
+	font-family    : 'MaPolice', serif, Helvetica;
+}
+footer{
+	z-index: 2;
+	background: repeating-linear-gradient(
+		90deg,
+		#443A34,
+		#443A34 2px,
+		#3F352F 2px,
+		#3F352F 3px
+		);
+	display: flex;
+	flex-direction: row;
+	background-color: darkgrey;
+	margin-right: -20px;
+	margin-left: -20px;
+	margin-top:130px;
+	padding-bottom: 15px;
+}
+#cinqUn{
+	display: flex;
+	flex-direction: column;
+	padding-left: 10%;
+}
+#cinqDeux{
+	padding-left: 7%;
+}
+#cinqDeuxUn{
+	display: flex;
+	flex-direction: row;
+}
+#cinqDeuxUn img{
+	width: 30px;
+	height: 22px;
+	vertical-align: center;
+	padding-top: 17px;
+	padding-right: 25px;
+}
+#cinqDeuxDeux{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#divDesUl{
+	display: flex;
+	flex-direction: row;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#cinqUn ul{
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	flex-direction: column;
+}
+#cinqUn ul li{
+	font-family: arial, sans-serif;
+	font-size:0.8em;
+	line-height: 15px;
+	display: flex;
+	flex-direction: column;
+	color: #e3e0cf;
+}
+#cinqUn img{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.titreLi{
+	text-align: left;
+    font-family: 'MaPolice', serif;
+    font-size: 11pt;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-decoration: none;
+}
+#tel{
+	font-family: 'MaPolice', serif;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    color: #e3e0cf;
+    font-weight: normal;
+    width: 120px;
+}
+#nana{
+	z-index:4;
+	position: absolute;
+	margin-top: -94px;
+	margin-left: 10px;
+	overflow-y: hidden;
+}
+#centre{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+#centre p{
+	position: absolute;
+	font-family: 'MaPolice', serif;
+}
