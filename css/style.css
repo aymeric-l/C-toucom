@@ -198,6 +198,7 @@ footer{
 #deux img{
 	width: 231px;
 	height: auto;
+	margin-bottom:-4px;
 }
 @keyframes animated{
 	100%{transform: scale(1.31);}
